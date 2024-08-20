@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #e9e8e8;
+}
+body .container {
+  width: 60%;
+  text-align: center;
+  background-color: rgb(247, 207, 207);
+  padding: 15px;
+  border-radius: 15px;
+}
+body .container form {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+body .container form input {
+  flex: 0.5;
+  border: none;
+  outline: none;
+  padding: 10px;
+  background-color: rgb(219, 252, 199);
+  border-radius: 6px;
+}
+body .container form input:focus {
+  background-color: bisque;
+}
+body .container form button {
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: rgb(27, 186, 186);
+  color: white;
+  transition: all 0.3s;
+}
+body .container form button:hover {
+  background-color: rgb(32, 143, 143);
+}
+body .container ul {
+  list-style-type: none;
+}
+body .container ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  background-color: #e9e8e8;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+body .container ul li .delete {
+  border: none;
+  padding: 5px;
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+body .container ul li .delete:hover {
+  background-color: rgb(202, 9, 9);
+}/*# sourceMappingURL=style.css.map */
